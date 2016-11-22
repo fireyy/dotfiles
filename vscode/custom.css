@@ -1,0 +1,31 @@
+.monaco-shell.vs-dark {
+  background-color: #282c34;
+}
+.vs-dark .monaco-workbench {
+  background-color: rgba(0,0,0,0.2);
+}
+.monaco-workbench>.activitybar>.content .monaco-action-bar.position-top {
+  background-color: transparent;
+}
+.vs-dark .monaco-workbench>.sidebar>.title>.title-actions {
+  background-color: transparent;
+}
+.vs-dark .monaco-workbench>.activitybar>.content {
+  background-color: rgba(0,0,0,0.2);
+}
+.monaco-workbench>.part.statusbar {
+  background: rgba(0,0,0,0.2);
+}
+.monaco-workbench.no-workspace>.part.statusbar {
+  background: rgba(0,0,0,0.2);
+}
+.vs-dark .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title.tabs {
+  background: rgba(0,0,0,0.2);
+}
+.vs-dark .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title .tabs-container>.tab:not(.active) {
+  background-color: transparent;
+}
+.vs-dark .monaco-tree .monaco-tree-row.selected:not(.highlighted),
+.vs-dark .monaco-tree .monaco-tree-row:hover:not(.highlighted):not(.selected):not(.focused) {
+  background-color: #282c34;
+}
